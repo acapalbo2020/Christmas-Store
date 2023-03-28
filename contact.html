@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<script src=https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp Links to an external site.></script>
+<script src="script.js"></script> 
+<html lang="en">
+<head>
+   <meta charset="utf-8"/>
+   <title>Christmas Store</title>
+
+</head>
+
+<body class = "bg-white-600 mx-100 mt-20">
+   <header class = "flex flex-col items-center justify-center" role = "banner">
+      <audio controls autoplay>
+        <source src="mixkit-christmas-jazz-503.mp3" type="audio/mpeg">
+      </audio>
+         <img  class="max-w-none" src="mountains.jpg" alt="Mountains" style="width:100%;height:400px;">
+            <h1 class="justify-center font-medium leading-tight text-5xl mt-0 mb-2 text-rose-600"><em>Welcome to Our Christmas Store</em></h1>
+            <p class="font-medium leading-tight text-2xl mt-0 mb-2 text-green-600">This page should be tried in safari, chrome or Mozila.</p>
+         </header>
+<br>
+<br>
+   <nav class = "flex flex-col items-center justify-center inline relative">
+      <ul>
+         <li class = "inline list-none center bg-red-600 font-bold text-xl m-10 p-8 rounded-lg border-2"> <a href="index.html">Home</a></li>
+         <li class = "inline center bg-red-600 font-bold text-xl m-10 p-8 rounded-lg border-2"> <a href="contact.html">Contact Us</a></li>
+         <li class = "inline bg-red-600 font-bold text-xl m-10 p-8 rounded-lg border-2"> <a href="deals.html">Today&apos;s Deal</a></li>
+      </ul>
+   </nav>
+<br>
+<br>
+<br>
+<br>
+      <p class="flex flex-col items-center justify-center font-medium leading-tight text-xl mt-0 mb-2 text-rose-600">
+         If you have any suggestions regarding our store or merchandise, 
+         please let us know! We are always looking to improve! Happy Holidays!
+      </p>
+      <br>
+      <br>
+    <article>
+      
+      <div class="flex flex-col items-center justify-center">
+        <form action="index.html" class="form">
+            <label for="fname"></label><p class ="first-line:uppercase first-letter:text-4xl first-letter:font-bold first-letter:text-black">First name</p></label>
+            <input type="text" id="fname" name="fname" value="John" maxlength=50><br>
+
+            <label for="lname"><p class ="first-line:uppercase first-letter:text-4xl first-letter:font-bold first-letter:text-black">Last name</p></label>
+            <input type="text" id="lname" name="lname" value="Doe" maxlength=50><br>
+
+            <label for="email"><p class ="first-line:uppercase first-letter:text-4xl first-letter:font-bold first-letter:text-black">Email</p></label>
+            <input type="email" id="email" name="email" value="Doe" maxlength="50"><br>
+
+            <label for="msg"><p class ="first-line:uppercase first-letter:text-4xl first-letter:font-bold first-letter:text-black">Your message</p></label>
+            <input type="text" id="msg" name="message" value="Type here..."><br>
+            <label for="box"><strong><p class ="first-line:uppercase first-letter:text-4xl first-letter:font-bold first-letter:text-black">Would you like us to contact you with special deals?</p></strong></label>
+            <input type="checkbox" id="box" name="box">
+            <input class = "center bg-green-600 font-bold text-xl m-2 p-2 rounded-lg border-2" onclick="myAlert()"type="submit" value="Submit"><br>
+
+         </form>
+      </div>
+    </article>
+
+<aside>
+   <p> This is the aside part of the web page. </p>
+</aside>
+
+<footer class="text-center">
+    &copy; 2016 Andrew Capalbo
+</footer>
+</body>
+
+</html>
